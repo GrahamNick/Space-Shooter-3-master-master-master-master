@@ -1,0 +1,27 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\bossFight.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerMover.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\destroyByBoundary.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DestroyByContact.cs" Line="24" Column="3" />
+      <File FileName="Assets\Scripts\BGScroller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WeaponCont.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\mover.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\evasiveManuver.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SunWin.cs" Line="1" Column="1" />
+      <File FileName="Assets\_Complete-Game\Scripts\Done_BGScroller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\followPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\eyeLazerRight.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\eyeLazerLeft.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\bossFight.cs" Line="51" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\nickg\Documents\Desktop apps\Projects\Unity\Space Shooter\Space Shooter\Assets\Scripts\evasiveManuver.cs" line="23" column="31" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
