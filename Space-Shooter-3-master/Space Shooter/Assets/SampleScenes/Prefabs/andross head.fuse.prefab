@@ -71,10 +71,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4729903777830542}
   - component: {fileID: 95569765432371852}
-  - component: {fileID: 114368529019925272}
+  - component: {fileID: 54677228687718096}
+  - component: {fileID: 64701092380809420}
   m_Layer: 0
   m_Name: andross head.fuse
-  m_TagString: Untagged
+  m_TagString: lvl99 boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -176,7 +177,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538938262861608}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.008803356, w: 0.99996126}
   m_LocalPosition: {x: 0, y: 0, z: 100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -186,7 +187,7 @@ Transform:
   - {fileID: 4817121298354366}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4757297024900342
 Transform:
   m_ObjectHideFlags: 1
@@ -391,6 +392,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1276200290047392}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54677228687718096
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538938262861608}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &64701092380809420
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538938262861608}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 1dd8d33e6774131449a8fb4600606ab6, type: 3}
 --- !u!95 &95569765432371852
 Animator:
   serializedVersion: 3
@@ -398,7 +428,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1538938262861608}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: eadeb246e97028a4aa25f574ab6fadff, type: 2}
   m_CullingMode: 0
@@ -426,24 +456,6 @@ MonoBehaviour:
   fireDelta: 0.5
   shot: {fileID: 1996287937804296, guid: 8cdb49f49c9c2c3448b3258bf7ae1a56, type: 2}
   shotSpawn1: {fileID: 4950753279299838}
---- !u!114 &114368529019925272
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1538938262861608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2a338a495abec047bcbc0600125eec1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BossWaitTime: 10
-  nextAnimTime: 30
-  bossHealth: 500
-  moveBy: 20
-  eye1: {fileID: 1573285886068494}
-  eye2: {fileID: 1276200290047392}
-  boss: {fileID: 1538938262861608}
 --- !u!114 &114810221815860868
 MonoBehaviour:
   m_ObjectHideFlags: 1

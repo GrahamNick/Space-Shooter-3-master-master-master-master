@@ -332,3 +332,4 @@ C:\Users\nickg\Desktop\Space-Shooter-3-master-master-master-master\Space-Shooter
 C:\Users\nickg\Desktop\Space-Shooter-3-master-master-master-master\Space-Shooter-3-master\Space Shooter\Temp\bin\Debug\UnityEditor.VR.xml
 C:\Users\nickg\Desktop\Space-Shooter-3-master-master-master-master\Space-Shooter-3-master\Space Shooter\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\Users\nickg\Desktop\Space-Shooter-3-master-master-master-master\Space-Shooter-3-master\Space Shooter\obj\Debug\Assembly-CSharp.pdb
+C:\Users\nickg\Desktop\Space-Shooter-3-master-master-master-master\Space-Shooter-3-master\Space Shooter\Temp\bin\Debug\UnityEditor.WebGL.Extensions.dll
